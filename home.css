@@ -1,0 +1,166 @@
+@charset "UTF-8";
+* {
+    text-decoration: none;
+}
+body {background-color: #ffffff;}
+* {
+margin: 0 auto;
+padding: 0;
+box-sizing: border-box;
+}
+
+h1
+{
+    font-family: "Montserrat";
+    font-size: 40px;
+    color: #181412;
+    margin-left: 18px;
+    margin-top: 10px;
+    margin-right: 18px;
+    margin-bottom: 18px;
+    border-radius: 2px;
+}
+.anima {
+    color: #181412;
+    font-size: 80px;
+    font-family: "bebas Neue";
+  text-align: center;
+  border-right: black solid 3px;
+    align-content:center;
+    margin: 0 auto;
+    padding: 0%;
+    max-width: 0%;
+    display:inline-block;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: pisca normal infinite .5s, escrever normal infinite 5s steps(50) both;
+}
+@keyframes pisca {100%
+
+{
+    border-right-color: transparent;
+}
+}
+@keyframes escrever {
+    100% {
+        max-width: 100%;
+    }
+}
+
+
+menu {
+background-color:yellow ;
+}
+li a {
+    text-decoration: none;
+}
+p {color:#181412;
+font-family: "Quicksand";
+font-size: 22px;
+margin-left: 20px;
+
+}
+
+li {color: white}
+
+#menu {
+    list-style-type: none;
+    padding:0 ;
+    background-color: #2E2723;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Gotham";
+}
+#menu li {
+    display: inline;
+}
+#menu li a{
+  
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    margin-left: 0px;
+    
+    }
+#menu li a:hover {
+    background-color:#326D7B;
+    
+}
+img{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+    float:left;
+    
+}
+#final
+{
+    font-family: "GOtham";
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.searchbox {
+  position: absolute;
+   top: 7%;
+   left: 90%;
+   transform: translate(-50%, -50%);
+   background:  #ABABAB;
+   border-radius: 40px;
+   padding: 10px;
+}
+.search-btn {
+    color: #DA2D37;
+}
+.search-txt
+{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color:rgb(0, 0, 0); 
+    font-family: "Gotham";
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 30px;
+
+}
+h2 {
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-right: 5px;
+    font-family: "Gobold";
+    color: #181412;
+    
+    
+}
+h3 {
+    font-family: "Gobold";
+    margin-left: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    margin-right: 5px;
+    color: #181412;
+    font-size: 25px;
+}
+.insta {
+    width: 25px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.yt
+{    
+    width: 30px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+hr{
+    width:100%;
+    color: #181412;
+    border: 20px solid;
+    
+}
